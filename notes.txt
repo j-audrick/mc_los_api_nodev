@@ -1,0 +1,13 @@
+gagawa API, new project?
+
+create new node project, mag on board si 3rd party ng loan application - process flow will be based on the on boarding
+
+0cce8eccd33e49c6b52a6e2d9005b119
+0e5fdfa2d9a84412936009c773f2c4dd
+
+Questions
+1. Will i retain the exact same authentication from the MC LOS project (expected ba sir na kapag nag generate ng auth token sa mc los dapat magagamit din dito sa project na gagawin ko?) same jwt 
+2. Same database and schema ang gagamitin sa existing na gamit ng MC los app - same ng gagamitin na database
+3. Will i retain the exact same process, since manggagaling sia sa 3rd party magkakaron ba ng tagging for loan application galing third party vs sa inonboard ni loan ranger - channel
+4. For the image naman sir, since ginagamit sa onboarding is base64 mismo ung pinapasa sa request load medyo mabigat, magiging strict ba tayo sa implementation na dapat base64 din gamitin or may chance mabago? if ever mabago sia sir mag iiba ung consumption for this pati db ma apektuhan since naka text sia - bibigyan ako ng
+5. For the Sys ID generation, random generator gamit ni sir kevs tapos standard na 32 characters, meron ba sir sinusunod na standard for this?
