@@ -1,5 +1,4 @@
-module.exports.policy_mapping = {
-  "policyMapping": [
+module.exports.policy_mapping = [
     {
       "title": "MC LOAN ONBOARDING",
       "policy": [ "MC LOAN ONBOARDING" ],
@@ -26,4 +25,3 @@ module.exports.policy_mapping = {
       "role": [ "DEALER ADMIN", "ADMINISTRATOR", "CREDIT EVALUATOR", "MC CPS", "CLIENT ONBOARDER" ]
     }
   ]
-}

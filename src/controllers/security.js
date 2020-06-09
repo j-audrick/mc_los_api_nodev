@@ -3,6 +3,7 @@ const Security = require('../services/security');
 const validate = require('../middlewares/validate');
 const securityValidationRules = require('../validators/security');
 const { response, SUCCESS, CREATED, INVALID_CREDENTIALS } = require('../core/response');
+const policy = require('../core/helpers/policy');
 
 router.post('/getToken', securityValidationRules.getToken, validate, (req, res) => {
   Security.generateToken(req.body)

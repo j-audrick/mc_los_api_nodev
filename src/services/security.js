@@ -8,8 +8,10 @@ module.exports.generateToken = async data => {
   logger.log('info', `${TAG}${ACTION}`);
 
   let userDetails = await Users.getUserDetails(data.email, data.password);
-  let token = JWT.generateToken(data);
+  
   if(userDetails.length > 0){
+    let userTokenDetails = await Users.getUserTokenDetails(userDetails[0].SysId);
+    let token = JWT.generateToken(userTokenDetails[0]);
     return token;
   }else{
     return null;
