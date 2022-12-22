@@ -9,7 +9,7 @@
     "express": "^4.17.1",
     "express-validator": "^6.5.0",
     "http": "0.0.1-security",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "knex": "^0.21.1",
     "morgan": "^1.10.0",
     "mssql": "^6.2.0",
